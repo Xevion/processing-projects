@@ -7,3 +7,5 @@ Other sketches without any specific purpose. If enough fit into a specific categ
 ## Projects
 
 - **Chaser** A test demonstrating easing equations.
+
+- **Clusters** A test of a simple clusterization algorithm.
