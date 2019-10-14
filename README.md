@@ -10,3 +10,6 @@ This repository holds a collection of visually compelling projects built primari
 - [Pathfinding](./pathfinding/README.md)
 - [Physics](./physics/README.md)
 - [Games](./games/README.md)
+- [Sorting](./sorting/README.md)
+- [Visual](.sorting/README.md)
+- [Other](./other/README.md)
