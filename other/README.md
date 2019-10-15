@@ -13,3 +13,5 @@ Other sketches without any specific purpose. If enough fit into a specific categ
 - **DVD Logo** - A fun little sketch displaying the iconic bouncing DVD Logo. May need a little more work to better visualize true-to-heart.
 
 - **DynamicLines** - A very simple line drawing application.
+
+- **FlipFlopChain** - A simple project displaying how one would count in binary.
