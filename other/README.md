@@ -11,3 +11,5 @@ Other sketches without any specific purpose. If enough fit into a specific categ
 - **Clusters** - A test of a simple clusterization algorithm.
 
 - **DVD Logo** - A fun little sketch displaying the iconic bouncing DVD Logo. May need a little more work to better visualize true-to-heart.
+
+- **DynamicLines** - A very simple line drawing application.
