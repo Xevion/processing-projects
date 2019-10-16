@@ -15,3 +15,5 @@ Other sketches without any specific purpose. If enough fit into a specific categ
 - **DynamicLines** - A very simple line drawing application.
 
 - **FlipFlopChain** - A simple project displaying how one would count in binary.
+
+- **Graph-Theory** - A simple project closely mimicing the particle.js library.
