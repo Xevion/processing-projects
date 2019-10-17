@@ -19,3 +19,5 @@ Other sketches without any specific purpose. If enough fit into a specific categ
 - **Graph-Theory** - A simple project closely mimicing the particle.js library.
 
 - **Old_Lines** - A short script connecting your current mouse position to that of yours moments ago.
+
+- **Rotating_Calculator** - Displays how Processing.py calculates the final position of an object given a rotational value. Mostly a test for me, trying to understand why some of my projects would rotate in strange and confusing ways.
