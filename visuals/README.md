@@ -9,3 +9,5 @@ All my projects attempting to create vivid or interesting visuals using the Proc
 - **CircleIntersection** Plots circles in places where others aren't, expoonentially becoming slower and slower with each successfully located spot. Somewhat buggy and needs tuning to become much faster using a better algorithm, and probably better methods for deciding where spots are (less random, more organized manner).
 
 - **EquilateralTriangle** Places squares in increasing size whilst rotating.
+
+- **Gradients** Builds simple linear RGB gradients from 1 random color to another.
