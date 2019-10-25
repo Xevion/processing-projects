@@ -17,3 +17,5 @@ All my projects attempting to create vivid or interesting visuals using the Proc
 - **Trippy_Boxes** - Transparent rotating boxes that move throught the HSB color spectrum.
 
 - **Rotating_HSB_Squares** - Slowly builds a mandela-like structure out of squares that slowly change color through the HSB color spectrum. 
+
+- **StackingEquilateralTriangles** - Another interesting rotating triangle sketch.
