@@ -19,3 +19,5 @@ All my projects attempting to create vivid or interesting visuals using the Proc
 - **Rotating_HSB_Squares** - Slowly builds a mandela-like structure out of squares that slowly change color through the HSB color spectrum. 
 
 - **StackingEquilateralTriangles** - Another interesting rotating triangle sketch.
+
+- **Sierpinski_Triangle** - Builds the Sierpinski Triangle
