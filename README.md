@@ -11,5 +11,5 @@ This repository holds a collection of visually compelling projects built primari
 - [Physics](./physics/README.md)
 - [Games](./games/README.md)
 - [Sorting](./sorting/README.md)
-- [Visual](.sorting/README.md)
+- [Visual](./visual/README.md)
 - [Other](./other/README.md)
