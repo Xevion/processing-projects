@@ -2,7 +2,7 @@
 
 ## About
 
-Projects that generate mazes using various algorithms. Developed primarily in 2018-2019. All of these are generating simple square mazes, just using different algorithms and occaisionally a little twist.
+Projects that generate mazes using various algorithms. Developed primarily in 2018-2019. All of these are generating simple square mazes, just using different algorithms and occasionally a little twist. Original sketch names have been preserved.
 
 ## Sketches
 
@@ -10,7 +10,7 @@ Projects that generate mazes using various algorithms. Developed primarily in 20
 
 ![MazeGenV2 Gif](./MazeGenV2_1.gif)
 
-- **MazeGenSolve** - Maze gen with a completed path shown after. Recursive Backtracker algorithm for Generation, A* algorithm for pathfinding (very similar in theory).
+- **MazeGenSolve** - Maze gen with a completed path shown after. Recursive Backtracker algorithm for Generation, A* algorithm for pathfinding (very similar in theory). Exceptionally similar to the Growing Tree algorithm in implementation (1-2 line change).
 
 ![MazeGenSolve Gif](./MazeGenSolve_1.gif)
 
@@ -28,7 +28,7 @@ Projects that generate mazes using various algorithms. Developed primarily in 20
 
 - **MazeGenSidewinder** - Sidewinder algorithm. A little bit buggy at the end, but properly implemented none the less. I had difficulty implementing this, and thus never got around to figuring out how to remove those boxes. Before recording, I modified it to properly show the erroring boxes, otherwise they would never be visible.
 
-![MazeGenSideWinder Gif](./MazeGenSideWinder_1.gif)
+![MazeGenSideWinder Gif](./MazeGenSidewinder_1.gif)
 
 - **MazeClustersCreator** - Not so much a maze as a interesting side-project when developing my maze generators. Somewhat buggy.
 
