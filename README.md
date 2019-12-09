@@ -10,6 +10,8 @@ Once I have a moment, I intend to add GIFs showing them in action (as currently 
 
 A small reminder about everything in this repository: these are all rendering real-time and built using Python to take a peek through the keyhole of visual algorithms. They aren't really intended to be a perfect reflection of Python nor my abilities.
 
+Beware, some of these sketches will not start unless you click your mouse or press a key while the sketch is in focus.
+
 Regardless, I hope you enjoy viewing them, I certainly enjoyed creating and learning about them during school and after hours.
 
 ## Current Projects
