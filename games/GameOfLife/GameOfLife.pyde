@@ -87,4 +87,4 @@ def keyPressed():
         frameRate(60)
     elif not paused:
         frameRate(10)
-    print('Paused: {}'.format(str(paused)))
+    print('Paused' if paused else 'Resumed')
