@@ -80,6 +80,7 @@ def cellExists(coordinate):
     x, y = coordinate
     return not (x < 0 or x >= columns or y < 0 or y >= rows)
                 
+    
 def setup():
     size(750, 750)
     colorMode(HSB, 360)
@@ -91,8 +92,13 @@ def setup():
     offsets = [(0, 1), (1, 0), (-1, 0), (0, -1)]
     movers = [Mover(random.randint(0, columns-1), random.randint(0, rows-1)) for _ in range(columns * rows / 1000)]
     frameRate(99999)
+
+import time
+s = False
 def draw():
-    global grid, movers
+    global grid, movers, s
+    if not s:
+        return
     background(204)
     for _ in range(50):
         for mover in movers:
@@ -100,3 +106,12 @@ def draw():
     for row in grid:
         for cell in row:
             cell.render()
+
+def keyPressed():
+    global s
+    s = not s 
+    if s:
+        frameRate(60)
+    else:
+        frameRate(10)
+    print('Paused' if s else 'Resumed')

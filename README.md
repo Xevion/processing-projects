@@ -8,6 +8,10 @@ These projects were created mostly for myself, but after amassing so many, I've 
 
 Once I have a moment, I intend to add GIFs showing them in action (as currently this repository is very boring).
 
+A small reminder about everything in this repository: these are all rendering real-time and built using Python to take a peek through the keyhole of visual algorithms. They aren't really intended to be a perfect reflection of Python nor my abilities.
+
+Regardless, I hope you enjoy viewing them, I certainly enjoyed creating and learning about them during school and after hours.
+
 ## Current Projects
 
 - [Mazes](./mazes/README.md)

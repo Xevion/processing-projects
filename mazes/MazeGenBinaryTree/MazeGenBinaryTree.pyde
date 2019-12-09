@@ -114,7 +114,7 @@ def tick():
     # Check if we're done
     if current[1] < 0:
         noLoop()
-        return
+        return True
     
     x = (current[0] + moveSet[0][0], current[1] + moveSet[0][1]) # North
     y = (current[0] + moveSet[1][0], current[1] + moveSet[1][1]) # West
@@ -144,13 +144,18 @@ def tick():
     
     # Move the current cell.
     current = current[0] + moveConst[0], current[1]
+    return False
     
+s = False
 def draw():
-    for _ in range(columns):
-        tick()
-    time.sleep(0.1)
-    render()
-    
+    if s:
+        for _ in range(columns):
+            tick()
+        time.sleep(2.5 // rows)
+        render()
+        
 def mouseClicked():
+    global s
+    s = True
     loop()
-    generate(mouseX, mouseY)
+    generate(*[min(mouseX, mouseY)] * 2)

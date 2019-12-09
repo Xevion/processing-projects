@@ -49,7 +49,7 @@ class Cell:
         fill(255)
         strokeWeight(2.5)
         if showNumbers:
-            textSize(50)
+            textSize(24)
             textAlign(CENTER, CENTER)
             text(symbolize(self.identity), divX / 2.0, divY / 2.0)
         if not self.visited:
@@ -90,7 +90,7 @@ def generate():
     global columns, rows, grid, divX, divY, offsets
     # Bottom, Right, Left, Top
     offsets = [(0, 1), (1, 0), (-1, 0), (0, -1)]
-    columns, rows = 10, 10
+    columns, rows = 25, 25
     divX, divY = width / float(columns), height / float(rows)
     grid = [[Cell(x, y) for y in range(rows)] for x in range(columns)]
     
@@ -135,6 +135,7 @@ def setup():
     noLoop()
     generate()
     frameRate(10)
+    redraw()
     
 def checkMaze():
     for row in grid:

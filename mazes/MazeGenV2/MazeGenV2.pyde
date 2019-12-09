@@ -104,7 +104,7 @@ def setup():
     size(750, 750)
     frameRate(10000)
     generate()
-    
+    noLoop()
 def mazeGenTick(loops=500):
     global current, next, i
     for _ in range(loops):
@@ -140,7 +140,11 @@ def draw():
         time.sleep(2.0)
         generate()
     if complete > 1:
-        mazeGenTick()
+        for _ in range(300):
+            mazeGenTick()
         render()
     else:
         mazeGenTick(1)
+
+def mouseClicked():
+    loop()

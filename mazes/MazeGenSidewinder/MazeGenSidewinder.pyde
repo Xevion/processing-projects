@@ -57,7 +57,11 @@ def openWalls(x1, y1, x2, y2):
         grid[x2][y2].right = False
     if offset == offsets[3]:
         grid[x2][y2].bottom = False
-
+    
+    global columns, rows
+    grid[x1][y1].visited = True
+    if x2 < columns and y2 < rows:
+        grid[x2][y2].visited = True
 # Validates whether a coordinate is valid with the curret columns and rows set
 def valid(coordinate):
     global columns, rows
@@ -99,16 +103,16 @@ def tick():
     global current, runSet, runSetActive
     if runSetActive:
         if len(runSet) > 0:
-            print('a')
+            # print('a')
             get = runSet[0]
             if get == []:
                 return
-            print('b')
-            print(runSet, get)
+            # print('b')
+            # print(runSet, get)
             choice = random.choice(get)
-            print('c')
+            # print('c')
             openWalls(choice[0], choice[1], choice[0], choice[1] - 1)
-            print('d')
+            # print('d')
             del runSet[0]
             return
         else:
