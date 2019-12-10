@@ -2,7 +2,7 @@ from random import choice, randint
 import sys, os
 
 def setup():
-    readSettings()
+    # readSettings()
     frameRate(45)
     size(1280, 720)
     fill(0, 0, 0)
@@ -14,25 +14,25 @@ def setup():
     # img = loadImage("DVD_video_logo.png")
 
 # Create and/or overwrite the settings.json file in the directory
-def createSettings():
-    settingsJSON = {
-                "height" : 1280,
-                "width" : 720,
-                "colorRGB" : [255, 255, 255]
-                }
-    with open(os.path.join(sys.path[2], 'settings.json'), 'w+') as settingsfile:
-        json.dump(settingsfile, settingsJSON)
+# def createSettings():
+#     settingsJSON = {
+#                 "height" : 1280,
+#                 "width" : 720,
+#                 "colorRGB" : [255, 255, 255]
+#                 }
+#     with open(os.path.join(sys.path[2], 'settings.json'), 'w+') as settingsfile:
+#         json.dump(settingsfile, settingsJSON)
 
 # Read the settings file, importing and setting the variables in the script to correlate
-def readSettings():
-    try:
-        with open(os.path.join(sys.path[2], 'settings.json'), 'r+') as settingsfile:
-            data = json.load(settingsfile)
-            setup(data["height"], data["width"])
-    except IOError:
-        print("No settings file found. Creating one now.")
-        createSettings()
-        os.exec()
+# def readSettings():
+#     try:
+#         with open(os.path.join(sys.path[2], 'settings.json'), 'r+') as settingsfile:
+#             data = json.load(settingsfile)
+#             setup(data["height"], data["width"])
+#     except IOError:
+#         print("No settings file found. Creating one now.")
+#         createSettings()
+#         os.exec()
         # print("Settings file created. Exiting program")
         # sys.exit()
 Xspeed, Yspeed = 5,5
