@@ -6,4 +6,6 @@ Projects related to pathfinding specifically. Although I studied it for a good b
 
 ## Sketches
 
-- **AStarPathfinding_V2** - Second pathfinding attempt with a barely working setup. Will error under certain strange circumstances. Displays a visual representation of the A* pathfinding algorithm as it paths between two points.
+- **AStarPathfinding_V2** - Second pathfinding attempt with a barely working setup. Will error under certain strange circumstances. Displays a visual representation of the A* pathfinding algorithm as it paths between two points. As demonstrated in the GIF, very buggy and needs to be redone.
+
+![AStarPathfinding V2](./AStarPathfindingV2.gif)
