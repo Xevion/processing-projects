@@ -1,7 +1,7 @@
 import colorsys, random
 
 def setup():
-    size(360 * 2, 360 * 2)
+    size(180 * 2, 180 * 2)
     global array, carray
     frameRate(1000)
     
