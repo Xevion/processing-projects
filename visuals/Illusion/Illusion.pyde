@@ -2,7 +2,8 @@ def setup():
     size(750, 750)
     frameRate(250)
     background(0)
-
+    noLoop()
+    
 s = 0
 multi = 12.0    
 def draw():
@@ -18,3 +19,6 @@ def draw():
     fill(0, 0, 0, 0)
     triangle(-30*multi, 30*multi, 0, -30*multi, 30*multi, 30*multi); 
     popMatrix();
+
+def mouseClicked():
+    loop()

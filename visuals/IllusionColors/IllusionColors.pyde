@@ -2,7 +2,7 @@ import time
 
 def setup():
     size(750, 750)
-    frameRate(60)
+    frameRate(15)
     background(0)
 s = 0
 multi = 12.0

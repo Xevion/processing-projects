@@ -15,12 +15,13 @@ def circleIntersectCircle(c1, c2):
     return c1.radius > d or c2.radius > d
 
 def setup():
-    size(1000, 1000)
+    size(500, 500)
     global circles, upperRadius, s
     s = 0
     upperRadius = 500
     circles = []
-
+    noLoop()
+    
 def draw():
     # background(204)
     global circles
@@ -41,3 +42,6 @@ def draw():
 
     # for circle in circles:
     #     circle.render()
+
+def mouseClicked():
+    loop()

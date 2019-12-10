@@ -4,7 +4,7 @@ class RGB:
         self.rgb = (r,g,b)
 
 def setup():
-    size(1000, 1000, P3D)
+    size(750, 750, P3D)
     colorMode(HSB, 5, 5, 5)
     
 def drawMatrix(i):
