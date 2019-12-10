@@ -18,7 +18,7 @@ class SoundWave(object):
         circle(self.x, self.y, self.radius * 2) # diameter
 
 def setup():
-    size(1000, 1000)
+    size(750, 750)
 
     noFill()
     
